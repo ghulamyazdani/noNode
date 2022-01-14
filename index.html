@@ -11,7 +11,7 @@
   <p class="complement">none loaded yet</p>
   <button class="request-complement">Request New Complement</button>
   <script>
-  document.querySelector(".request-complement").addEventListener("click", function() {
+    document.querySelector(".request-complement").addEventListener("click", function() {
     console.log("working");
     fetch("/complement")
       .then(function(res) {
@@ -23,7 +23,8 @@
       .catch(function(err) {
         console.error(err);
       });
-  });</script>
+  });
+  </script>
 </body>
 
 </html>

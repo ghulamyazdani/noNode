@@ -10,6 +10,7 @@ const complements = [
   "You're programming! How cool is that?",
   "I'm really proud of you",
   "You made this",
+  "Ananya is pretty!",
   "You've learned a lot of things, and that's pretty hard to do"
 ];
 
